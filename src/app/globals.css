@@ -9,6 +9,8 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #000319;
+@layer utilities {
+  .heading {
+    @apply text-4xl md:text-5xl text-center text-purple uppercase mt-24;
+  }
 }
