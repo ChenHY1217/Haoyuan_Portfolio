@@ -21,6 +21,7 @@ const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 export const metadata: Metadata = {
   title: "Haoyuan's Portfolio",
   description: "Modern Portfolio for Haoyuan built with Next.js",
+  
 };
 
 export default function RootLayout({
