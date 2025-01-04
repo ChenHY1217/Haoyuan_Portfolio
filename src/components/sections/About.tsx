@@ -10,7 +10,7 @@ import TechStack from '../ui/TechStack';
 
 const About: React.FC = () => {
   return (
-    <section className='h-auto md:h-screen mx-auto max-w-7xl' id='about'>
+    <section className='h-auto md:h-screen mx-auto max-w-7xl px-5' id='about'>
       {/* About Me */}
       <motion.div 
         className='flex justify-center'
@@ -23,7 +23,7 @@ const About: React.FC = () => {
       </motion.div>
 
       <motion.div 
-        className='flex flex-col md:flex-row gap-10 md:gap-20 justify-center md:items-center py-10'
+        className='flex flex-col md:flex-row gap-10 md:gap-20 justify-center md:items-center pt-10 md:pt-20'
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}

@@ -1,7 +1,8 @@
 import React from 'react'
 import Hero from '../components/sections/Hero'
 import About from '../components/sections/About'
-import Experience from '@/components/sections/Experience'
+import Experiences from '@/components/sections/Experiences'
+import Projects from '@/components/sections/Projects'
 import { FloatingNav } from '@/components/ui/FloatingNav'
 import { NavbarItems } from '@/data/index'
 
@@ -12,7 +13,8 @@ const Home: React.FC = () => {
       <FloatingNav navItems={NavbarItems}/>
       <Hero />
       <About />
-      <Experience />
+      <Experiences />
+      <Projects />
     </main>
   )
 }
