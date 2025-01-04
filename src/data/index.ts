@@ -1,12 +1,3 @@
-import {
-    HiHome,
-    HiUser,
-    HiBriefcase,
-    HiFolderOpen,
-    HiMail
-} from 'react-icons/hi';
-import { JSX } from 'react';
-
 export const projects = [
     {
         id: 1,

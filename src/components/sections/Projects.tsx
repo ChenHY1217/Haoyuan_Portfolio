@@ -2,7 +2,6 @@
 import React from 'react'
 import { motion } from 'motion/react'
 import { projects } from '../../data/index'
-import { div } from 'framer-motion/client';
 import { PinContainer } from '../ui/3d-pin';
 import { FaLocationArrow } from 'react-icons/fa';
 import bg from '../../../public/bg.png'
@@ -30,9 +29,11 @@ const Projects = () => {
                                 <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                     <Image src={bg} alt="bg-img"/>
                                 </div>
-                                <img 
+                                <Image
                                     src={img}
                                     alt={title}
+                                    fill={true}
+                                    objectFit="contain"
                                     className='z-10 absolute bottom-0'
                                 />
                             </div>

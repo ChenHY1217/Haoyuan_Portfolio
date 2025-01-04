@@ -13,7 +13,7 @@ const Footer = () => {
                     Curious about my <span className="text-purple">Journey</span>? 
                 </h2>
                 <p className='text-center mt-4 text-2xl'>
-                Let's <span className="text-purple">Connect</span>!
+                Let&apos;s <span className="text-purple">Connect</span>!
                 </p>
                 <a href="mailto:haoyuan@gmail.com">
                     <MagicButton 

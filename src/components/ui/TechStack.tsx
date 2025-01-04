@@ -1,9 +1,8 @@
-import { div } from 'framer-motion/client'
 import React from 'react'
 import { motion } from 'motion/react'
 import { InfiniteMovingCards } from '@/components/ui/InfiniteMovingCards'
 import {
-    SiMongodb, SiCplusplus, SiMysql, SiReact, 
+    SiMongodb, SiCplusplus, SiReact, 
     SiTailwindcss, SiExpress, SiNodedotjs, SiTypescript, SiPython
  } from 'react-icons/si';
 

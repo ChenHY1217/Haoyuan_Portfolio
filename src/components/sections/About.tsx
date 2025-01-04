@@ -51,7 +51,7 @@ const About: React.FC = () => {
                 <li>Graduation Date: <span className="font-bold">December 2025</span></li>
                 <li>GPA: <span className="font-bold">3.92</span></li>
                 <li>You can call me <span className='text-purple font-bold'>Hao</span> </li>
-                <li>pronounced like "How" 😅</li>
+                <li>pronounced like &quot;How&quot; 😅</li>
               </ul>
             </div>
           
