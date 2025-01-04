@@ -1,18 +1,17 @@
-import { i } from "framer-motion/client";
-import { title } from "process";
-
-export const NavbarItems = [
-    {name: 'About', link: '#about'},
-    {name: 'Experience', link: '#experiences'},
-    {name: 'Projects', link: '#projects'},
-    {name: 'Contact', link: '#contact'},
-];
+import {
+    HiHome,
+    HiUser,
+    HiBriefcase,
+    HiFolderOpen,
+    HiMail
+} from 'react-icons/hi';
+import { JSX } from 'react';
 
 export const projects = [
     {
         id: 1,
         title: "SoraAi - Language Tutor ChatApp",
-        des: "Behold a chatbot specializing in transforming you to the next foreign language expert. The journey begins today!",
+        des: "Behold a chatbot specialized in transforming you to the next foreign language expert. The journey begins today!",
         img: "/projectpics/soraai.png",
         iconLists: [
             "/techstacksvgs/react.svg",

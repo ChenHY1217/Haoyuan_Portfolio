@@ -11,6 +11,6 @@
 
 @layer utilities {
   .heading {
-    @apply text-4xl md:text-5xl text-center text-purple uppercase mt-24;
+    @apply text-4xl md:text-5xl text-center text-purple font-bold mt-24;
   }
 }

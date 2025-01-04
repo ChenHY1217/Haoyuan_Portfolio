@@ -19,7 +19,7 @@ const Experiences = () => {
         >
           <h2 className='heading'> Experiences </h2>
         </motion.div>
-        <div className='w-full relative'>
+        <div className='w-full relative overflow-hidden'>
           <Timeline  data={WorkExperience}/>
         </div>
     </section>
@@ -36,13 +36,13 @@ const WorkExperience = [
         <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Undergraduate Teaching Assistant</h3>
         <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
           <li className="">
-            Worked as an undergraduate teaching assistant for the Principles of Software course at RPI.
+            Working as an undergraduate teaching assistant for the Principles of Software course at RPI.
           </li>
           <li>
-            Utlized communication skills to assist students in understanding course material and debugging their code.
+            Utlizing communication skills to assist students in understanding course material and debugging their code.
           </li>
           <li>
-            Graded assignments and exams and held weekly lab and office hours.
+            Grading assignments and exams and held weekly lab and office hours.
           </li>
         </ul>
         <Image 
@@ -60,10 +60,10 @@ const WorkExperience = [
         <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Backend Technical Co-Lead</h3>
         <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
           <li>
-            Co-led a group of aspiring programmers to support local robo cs teams who lack coding experience.
+            Co-led a group of aspiring programmers to support local robotics teams who lack coding experience.
           </li>
           <li>
-            Constructed Computer Vision code using Python and OpenCV  to help the robot recognize its precise loca on through on-field  Apriltags
+            Constructed Computer Vision code using Python and OpenCV to help the robot recognize its precise location through on-field  Apriltags
           </li>
           <li>
             Constructed "build-world" functions that update location data to all existing tags, boosting navigation acurracy and speed by 25%.

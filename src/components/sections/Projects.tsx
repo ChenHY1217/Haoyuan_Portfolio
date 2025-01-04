@@ -22,11 +22,11 @@ const Projects = () => {
                 <h2 className='heading'> Recent Projects </h2>
             </motion.div>
 
-            <div className='flex flex-wrap items-center justify-center p-4 gap-y-8 gap-x-24 gapx my-10'>
+            <div className='flex flex-wrap md:flex-row items-center justify-center p-4 gap-y-8 gap-x-24 my-10'>
                 {projects.map(({ id, title, des, img, iconLists, link}) => (
-                    <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center  w-[80vw] sm:w-[570px]">
+                    <div key={id} className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
                         <PinContainer title={link} href={link}>
-                            <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
+                            <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10'>
                                 <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                     <Image src={bg} alt="bg-img"/>
                                 </div>

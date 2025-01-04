@@ -7,6 +7,7 @@ import { ShimmerButton } from '../ui/ShimmerButton'
 import { FaLocationArrow } from 'react-icons/fa'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 import { motion } from 'motion/react'
 
 const Hero = () => {
@@ -46,7 +47,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className='flex flex-col gap-2 items-center justify-center'
+              className='flex flex-col gap-4 items-center justify-center'
             >
                 <div className='flex gap-4'>
                 <a href="https://www.linkedin.com/in/haoyuanchen27" target='_blank'>
@@ -59,13 +60,18 @@ const Hero = () => {
                 </div>
 
 
-              <a href="#experiences">
-              <ShimmerButton 
-                title="Explore My Work"
-                icon={<FaLocationArrow/>}
-                position='right'
-              />
-              </a>
+              <div className='flex flex-row justify-center gap-4'>
+                <a href="/HaoyuanChenResume.pdf" target='_blank'>
+                <ShimmerButton
+                  title="Resume"
+                  icon={<FaLocationArrow/>}
+                  position='right'
+                />
+                </a>
+                <a href="#experiences">
+                  <FaArrowDown size={30} className='hover:translate-y-2 transition-transform mt-4 ml-2 hover:text-purple duration-300'/>
+                </a>
+              </div>
             </motion.div>
 
           </div>
