@@ -19,7 +19,7 @@ const Experiences = () => {
         >
           <h2 className='heading'> Experiences </h2>
         </motion.div>
-        <div className='w-full relative overflow-hidden'>
+        <div className='w-full relative'>
           <Timeline  data={WorkExperience}/>
         </div>
     </section>
