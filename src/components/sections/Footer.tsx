@@ -26,7 +26,7 @@ const Footer = () => {
             
             <div className='flex mt-16 md:flex-row flex-col items-center justify-between gap-4'>
                 <p className='text-blue-100 text-sm md:text-base font-light md:font-normal'>
-                    Copyright © 2024 Haoyuan Chen
+                    Copyright © 2025 Haoyuan Chen
                 </p>
                 <div className='flex items-center md:gap-3 gap-6'>
                     <a href="https://www.linkedin.com/in/haoyuanchen27" target='_blank'>

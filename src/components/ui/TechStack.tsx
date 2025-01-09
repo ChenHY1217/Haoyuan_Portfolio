@@ -8,7 +8,7 @@ import {
 
 const TechStack = () => {
     return (
-        <div className='flex flex-col items-center justify-center bg-black-100 overflow-hidden'>
+        <div className='flex flex-col items-center bg-black-100'>
             <motion.div 
                 className='text-left py-5 font-bold text-2xl text-blue-100'
                 initial={{ opacity: 0, y: 20 }} 
@@ -20,16 +20,14 @@ const TechStack = () => {
                 <h1>My <span className='text-purple'>Tech Stack</span></h1>
             </motion.div>
 
-            <div className='flex flex-col items-center'>
-                <div
-                className=" rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
-                >
-                    <InfiniteMovingCards
-                        items={TechStackItems}
-                        direction='right'
-                        speed='normal'
-                    />
-                </div>
+            <div
+            className="rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
+            >
+                <InfiniteMovingCards
+                    items={TechStackItems}
+                    direction='right'
+                    speed='normal'
+                />
             </div>
         </div>
     )
