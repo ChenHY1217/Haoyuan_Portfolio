@@ -36,13 +36,20 @@ const WorkExperience = [
         <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Undergraduate Teaching Assistant</h3>
         <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
           <li className="">
-            Working as an undergraduate teaching assistant for the Principles of Software course at RPI.
+          Undergraduate Teaching Assistant for Principles of Software in Java course for over 300+ students 
           </li>
           <li>
-            Utlizing communication skills to assist students in understanding course material and debugging their code.
+          Increased student exam scores by 15% by actively responding to inquiries from students and improving their 
+          understanding
           </li>
           <li>
-            Grading assignments and exams and held weekly lab and office hours.
+          Facilitated weekly lab periods of 30+ students, along with other TAs, to reinforce concepts taught in lectures
+          </li>
+          <li>
+            Graded 100+ students’ homework and exams while ensuring fair and consistent evaluation
+          </li>
+          <li>
+          Attended weekly TA training workshops to enhance teaching and leadership ability
           </li>
         </ul>
         <Image 
