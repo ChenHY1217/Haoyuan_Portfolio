@@ -124,7 +124,7 @@ const WorkExperience = [
               Implemented real-time text selection and translation features using React, TypeScript, and Framer Motion for a smooth user experience
             </li>
             <li>
-              Built an AI-powered chat system by integrating with OpenAI's API through a Node.js/Express backend server
+              Built an AI-powered chat system by integrating with OpenAI&apos;s API through a Node.js/Express backend server
             </li>
             <li>
               Developed a responsive chat interface allowing users to interact with the AI about selected foreign language text
