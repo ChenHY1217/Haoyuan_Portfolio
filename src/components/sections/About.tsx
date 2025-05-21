@@ -49,7 +49,7 @@ const About: React.FC = () => {
               />
               <ul className='text-center md:text-left my-5'>
                 <li>Graduation Date: <span className="font-bold">December 2025</span></li>
-                <li>GPA: <span className="font-bold">3.92</span></li>
+                <li>GPA: <span className="font-bold">3.93</span></li>
                 <li>You can call me <span className='text-purple font-bold'>Hao</span> </li>
                 <li>pronounced like &quot;How&quot; 😅</li>
               </ul>
@@ -69,7 +69,7 @@ const About: React.FC = () => {
             Currently, I am working as a <span className="text-purple">Undergraduate Computer Science TA</span> at RPI while actively expanding my tech stack. I have experience in <span className="text-purple">Full-Stack Development</span> and would love to work on impactful projects that make a difference in the world.
           </p>
           <p className='text-lg mt-4 underline underline-offset-4'>
-            I am seeking a summer internship for 2025 in software engineering or full-stack web development. 
+            I am seeking a Full-time position / summer internship for 2026 in software engineering or full-stack web development. 
           </p>
         </div>
       </motion.div>

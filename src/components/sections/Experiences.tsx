@@ -4,6 +4,8 @@ import React from 'react'
 import Image from 'next/image'
 import rpi from '../../../public/rpi-logo.jpeg'
 import rcos from '../../../public/rcos-logo.png'
+import harp from '../../../public/harpresearch.jpg'
+import yomitomo from '../../../public/projectpics/yomitomo.png'
 import { Timeline } from '../ui/Timeline'
 import { motion } from 'framer-motion'
 
@@ -30,33 +32,118 @@ export default Experiences
 
 const WorkExperience = [
   {
-    title: "Spring 2025",
+    title: "Summer 2025",
     content: (
-      <div>
-        <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Undergraduate Teaching Assistant</h3>
+      <div className='flex flex-col items-center gap-10'>
+        {/* Summer 2025 Software Engineering Internship */}
+        <div>
+          <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">HARP Research - Software Engineering Intern</h3>
+          <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
+            <li className="">
+              Full-Stack Software Engineering Intern for <span className="text-purple">HARP Research Inc.</span>
+            </li>
+            <li>
+              Developed in the SyncList team, creating a secure chrome extension compatible with the Synapse PACS system for real-time workflow management for radiologists. 
+            </li>
+          </ul>
+          <Image
+            src={harp}
+            alt="HARP Research"
+            className='rounded-lg object-cover h-full w-full mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out'
+          />
+        </div>
+        {/* Undergraduate Instructional Assistant */}
+        <div>
+        <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Undergraduate Instructional Assistant</h3>
         <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
           <li className="">
-          Undergraduate Teaching Assistant for Principles of Software in Java course for over 300+ students 
+            Undergraduate Instructional Assistant for <span className="text-purple">Introduction to Artificial Intelligence</span> course for 50+ students at RPI
           </li>
           <li>
-          Increased student exam scores by 15% by actively responding to inquiries from students and improving their 
-          understanding
+            Increased student exam scores by 10% by actively responding to inquiries from students and improving their 
+            understanding
           </li>
           <li>
-          Facilitated weekly lab periods of 30+ students, along with other TAs, to reinforce concepts taught in lectures
+            Proctored exams and quizzes for 50+ students, ensuring a fair and secure testing environment
           </li>
           <li>
-            Graded 100+ students’ homework and exams while ensuring fair and consistent evaluation
+            Graded 50+ students&apos; homework and exams while ensuring fair and consistent evaluation
           </li>
           <li>
-          Attended weekly TA training workshops to enhance teaching and leadership ability
+            Hosted weekly office hours to assist students with course material and assignments
           </li>
         </ul>
         <Image 
           src={rpi} 
           alt="rpi"
-          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-20 md:w-44 lg:w-60 mx-5 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out'
+          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-20 md:w-44 lg:w-60 mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out'
         />
+      </div>
+      </div>
+    ),
+  },
+  {
+    title: "Spring 2025",
+    content: (
+      <div className='flex flex-col items-center gap-10'>
+        {/* Undergraduate Programming Mentor */}
+        <div>
+          <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Undergraduate Programming Mentor</h3>
+          <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
+            <li className="">
+            Undergraduate Teaching Assistant for <span className="text-purple">Principles of Software</span> in Java course for over 300+ students at RPI
+            </li>
+            <li>
+            Increased student exam scores by 15% by actively responding to inquiries from students and improving their
+            understanding
+            </li>
+            <li>
+            Facilitated weekly lab periods of 30+ students, along with other TAs, to reinforce concepts taught in lectures
+            </li>
+            <li>
+              Graded 100+ students&apos; homework and exams while ensuring fair and consistent evaluation
+            </li>
+            <li>
+            Attended weekly TA training workshops to enhance teaching and leadership ability
+            </li>
+          </ul>
+          <Image
+            src={rpi}
+            alt="rpi"
+            className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-20 md:w-44 lg:w-60 mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out'
+          />
+        </div>        
+        {/* RCOS Spring 2025 Yomitomo */}
+        <div> 
+          <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Open Source Developer - Project Lead</h3>
+          <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
+            <li>
+              Led a team of developers to create <span className="text-purple">Yomitomo</span> (読み友), a Chrome extension for contextual language translation and learning
+            </li>
+            <li>
+              Implemented real-time text selection and translation features using React, TypeScript, and Framer Motion for a smooth user experience
+            </li>
+            <li>
+              Built an AI-powered chat system by integrating with OpenAI's API through a Node.js/Express backend server
+            </li>
+            <li>
+              Developed a responsive chat interface allowing users to interact with the AI about selected foreign language text
+            </li>
+            <li>
+              Created a Chrome Extension architecture that injects overlay components into web pages while maintaining consistent styling
+            </li>
+          </ul>
+          <Image
+            src={yomitomo}
+            alt="yomitomo chrome extension"
+            className='rounded-lg object-cover h-full w-full mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out mb-6'
+          />
+          <Image 
+          src={rcos} 
+          alt="rcos"
+          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-auto mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out py-4'
+          />
+        </div>
       </div>
     ),
   },
@@ -64,13 +151,13 @@ const WorkExperience = [
     title: "Spring 2024",
     content: (
       <div>
-        <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Backend Technical Co-Lead</h3>
+        <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Open Source Developer - Backend Technical Co-Lead</h3>
         <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
           <li>
             Co-led a group of aspiring programmers to support local robotics teams who lack coding experience.
           </li>
           <li>
-            Constructed Computer Vision code using Python and OpenCV to help the robot recognize its precise location through on-field  Apriltags
+            Developed Computer Vision code using Python and OpenCV to help the robot recognize its precise location through on-field  Apriltags
           </li>
           <li>
             Constructed &quot;build-world&quot; functions that update location data to all existing tags, boosting navigation acurracy and speed by 25%.
@@ -79,7 +166,7 @@ const WorkExperience = [
         <Image 
           src={rcos} 
           alt="rcos"
-          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-auto mx-5 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out py-4'
+          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-auto mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out py-4'
         />
       </div>
     )

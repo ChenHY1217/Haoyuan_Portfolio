@@ -16,6 +16,33 @@ export const projects = [
     },
     {
         id: 2,
+        title: "YomiTomo - Language Lookup Chrome Extension",
+        des: "A Google Chrome extension with direct ChatGPT integration for seamless, contextual lookups of unknown words and grammar concepts in your target foreign language.",
+        img: "/projectpics/yomitomo.png",
+        iconLists: [
+            "/techstacksvgs/react.svg",
+            "/techstacksvgs/typescript.svg",
+            "/techstacksvgs/tailwindcss.svg",
+            "/techstacksvgs/express.svg",
+            "/techstacksvgs/node.svg",
+        ],
+        link: "https://github.com/7sr7/Yomitomo"
+    },
+    {
+        id: 3,
+        title: "NeoEcommerce - Minimalist E-commerce Website",
+        des: "A minimalist e-commerce website with a focus on user experience and simplicity. Built with Next.js, Tailwind CSS and Stripe Integration.",
+        img: "/projectpics/neoecommerce.png",
+        iconLists: [
+            "/techstacksvgs/nextjs.svg",
+            "/techstacksvgs/react.svg",
+            "/techstacksvgs/tailwindcss.svg",
+
+        ],
+        link: "https://neo-ecommerce.vercel.app"
+    },
+    {
+        id: 4,
         title: "Flappy-Bird-with-Neat-Genetic-Algorithm",
         des: "Using NEAT-python genetic algorithm to develop the ideal bird that clears the Flappy Bird game",
         img: "/projectpics/neatflappy.png",
