@@ -51,5 +51,18 @@ export const projects = [
             "/techstacksvgs/pygame.svg"
         ],
         link: "https://github.com/ChenHY1217/Flappy-Bird-with-Neat-Genetic-Algorithm"
+    },
+    {
+        id: 5,
+        title: "Google Dialogflow E-commerce Support Chatbot",
+        des: "A comprehensive e-commerce customer support chatbot built with Google Dialogflow. It can handle a wide range of customer inquiries, from product information to order tracking and returns.",
+        img: "/projectpics/DialogFlow_chatbot.png",
+        iconLists: [
+            "/techstacksvgs/dialogflow.svg",
+            "/techstacksvgs/node.svg",
+            "/techstacksvgs/express.svg",
+            "/techstacksvgs/react.svg",
+            "/techstacksvgs/tailwindcss.svg"
+        ],
     }
 ];
