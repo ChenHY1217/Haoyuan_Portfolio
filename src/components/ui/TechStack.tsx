@@ -3,7 +3,8 @@ import { motion } from 'motion/react'
 import { InfiniteMovingCards } from '@/components/ui/InfiniteMovingCards'
 import {
     SiMongodb, SiCplusplus, SiReact, 
-    SiTailwindcss, SiExpress, SiNodedotjs, SiTypescript, SiPython
+    SiTailwindcss, SiExpress, SiNodedotjs, SiTypescript, SiPython,
+    SiDocker
  } from 'react-icons/si';
 
 const TechStack = () => {
@@ -44,4 +45,5 @@ const TechStackItems = [
     {icon: <SiTypescript size={45}/>, title: 'TypeScript'},
     {icon: <SiCplusplus size={45}/>, title: 'C++'},
     {icon: <SiPython size={45}/>, title: 'Python'},
+    {icon: <SiDocker size={45}/>, title: 'Docker'},
 ];

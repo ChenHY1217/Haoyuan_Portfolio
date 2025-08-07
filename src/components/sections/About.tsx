@@ -49,7 +49,7 @@ const About: React.FC = () => {
               />
               <ul className='text-center md:text-left my-5'>
                 <li>Graduation Date: <span className="font-bold">December 2025</span></li>
-                <li>GPA: <span className="font-bold">3.93</span></li>
+                <li>GPA: <span className="font-bold text-purple">3.93</span></li>
                 <li>You can call me <span className='text-purple font-bold'>Hao</span> </li>
                 <li>pronounced like &quot;How&quot; 😅</li>
               </ul>
@@ -63,10 +63,10 @@ const About: React.FC = () => {
         <div className='md:w-full p-4'>
           <h2 className='text-2xl font-bold mb-4'>About Me</h2>
           <p className='text-lg'>
-            Hi, my name is <span className="text-purple">Haoyuan Chen</span>. I am a <span className="text-purple">junior</span> at <span className="text-purple">Rensselaer Polytechnic Institute</span> studying <span className="text-purple">Computer Science and Mathematics</span>. I am passionate about software development and I am always looking for new opportunities to learn and grow.
+            Hi, my name is <span className="text-purple">Haoyuan Chen</span>. I am a <span className="text-purple">senior</span> at <span className="text-purple">Rensselaer Polytechnic Institute</span> studying <span className="text-purple">Computer Science and Mathematics</span>. I am passionate about software development and I am always looking for new opportunities to learn and grow.
           </p>
           <p className='text-lg mt-4'>
-            Currently, I am working as a <span className="text-purple">Undergraduate Computer Science TA</span> at RPI while actively expanding my tech stack. I have experience in <span className="text-purple">Full-Stack Development</span> and would love to work on impactful projects that make a difference in the world.
+            Currently, I am working as a <span className="text-purple">Full-stack Software Engineering Intern</span> at <span className="text-purple">HARP Research</span> while actively expanding my tech stack. I have experience in <span className="text-purple">Full-Stack Development</span> and would love to work on impactful projects that make a difference in the world.
           </p>
           <p className='text-lg mt-4 underline underline-offset-4'>
             I am seeking a Full-time position / summer internship for 2026 in software engineering or full-stack web development. 

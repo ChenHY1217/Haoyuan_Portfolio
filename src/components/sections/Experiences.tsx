@@ -43,7 +43,13 @@ const WorkExperience = [
               Full-Stack Software Engineering Intern for <span className="text-purple">HARP Research Inc.</span>
             </li>
             <li>
-              Developed in the SyncList team, creating a secure chrome extension compatible with the Synapse PACS system for real-time workflow management for radiologists. 
+              Collaborated in the a team to create a <span className="text-purple">medical imaging workflow management system</span> that integrates with existing PACS (Picture Archiving and Communication System).
+            </li>
+            <li>
+              Architected a full-stack system involving a <span className="text-purple">Chrome extension frontend, Express backend, and PostgreSQL database.</span>
+            </li>
+            <li>
+              Built <span className="text-purple">containerized microservices architecture</span> with <span className="text-purple">Docker Compose</span>, orchestrating multiple services including a dual-database setup (operational and demonstration databases).
             </li>
           </ul>
           <Image
