@@ -166,7 +166,7 @@ const WorkExperience = [
             Developed Computer Vision code using Python and OpenCV to help the robot recognize its precise location through on-field  Apriltags
           </li>
           <li>
-            Constructed &quot;build-world&quot; functions that update location data to all existing tags, boosting navigation acurracy and speed by 25%.
+            Constructed &quot;build-world&quot; functions that update location data to all existing tags, boosting navigation accuracy and speed by 25%.
           </li>
         </ul>
         <Image 
