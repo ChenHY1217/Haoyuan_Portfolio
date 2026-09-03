@@ -4,7 +4,7 @@ import { InfiniteMovingCards } from '@/components/ui/InfiniteMovingCards'
 import {
     SiMongodb, SiCplusplus, SiReact, 
     SiTailwindcss, SiExpress, SiNodedotjs, SiTypescript, SiPython,
-    SiDocker
+    SiDocker, SiPytorch
  } from 'react-icons/si';
 
 const TechStack = () => {
@@ -27,7 +27,7 @@ const TechStack = () => {
                 <InfiniteMovingCards
                     items={TechStackItems}
                     direction='right'
-                    speed='normal'
+                    speed='fast'
                 />
             </div>
         </div>
@@ -46,4 +46,5 @@ const TechStackItems = [
     {icon: <SiCplusplus size={45}/>, title: 'C++'},
     {icon: <SiPython size={45}/>, title: 'Python'},
     {icon: <SiDocker size={45}/>, title: 'Docker'},
+    {icon: <SiPytorch size={45}/>, title: 'PyTorch'},
 ];

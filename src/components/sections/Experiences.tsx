@@ -32,6 +32,88 @@ export default Experiences
 
 const WorkExperience = [
   {
+    title: "Fall 2026",
+    content: (
+      <div>
+        <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Course Assistant - Principles of Software</h3>
+        <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
+          <li>
+            Course Assistant for <span className="text-purple">Principles of Software</span> in Java for over 300+ students at RPI
+          </li>
+          <li>
+            Facilitated weekly lab periods of 30+ students, along with other course assistants, to reinforce concepts taught in lectures
+          </li>
+          <li>
+            Graded students&apos; homework and exams while ensuring fair and consistent evaluation
+          </li>
+          <li>
+            Hosted office hours to assist students with course material, assignments, and programming questions
+          </li>
+          <li>
+            Attended weekly TA training workshops to strengthen teaching and leadership abilities
+          </li>
+        </ul>
+        <Image
+          src={rpi}
+          alt="rpi"
+          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-20 md:w-44 lg:w-60 mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out'
+        />
+      </div>
+    )
+  },
+  {
+    title: "Spring 2026",
+    content: (
+      <div>
+        <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Course Assistant - Introduction to Artificial Intelligence</h3>
+        <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
+          <li>
+            Course Assistant for <span className="text-purple">Introduction to Artificial Intelligence</span> for 50+ students at RPI
+          </li>
+          <li>
+            Increased student exam scores by 10% by actively responding to inquiries and improving students&apos; understanding of course material
+          </li>
+          <li>
+            Proctored exams and quizzes for 50+ students, ensuring a fair and secure testing environment
+          </li>
+          <li>
+            Graded students&apos; homework and exams while ensuring fair and consistent evaluation
+          </li>
+          <li>
+            Hosted weekly office hours to assist students with course material and assignments
+          </li>
+        </ul>
+        <Image
+          src={rpi}
+          alt="rpi"
+          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-20 md:w-44 lg:w-60 mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out'
+        />
+      </div>
+    )
+  },
+  {
+    title: "Fall 2025",
+    content: (
+      <div>
+        <h3 className="text-xl font-bold text-blue-100 mb-8 uppercase">Undergraduate Programming Mentor</h3>
+        <ul className='text-normal font-normal text-neutral-800 dark:text-neutral-200 mb-8 gap-4 list-disc'>
+          <li>
+            Undergraduate Teaching Assistant for <span className="text-purple">Computer Science 1</span> for over 300+ students at RPI
+          </li>
+          <li>
+            Facilitated weekly lab periods of 30+ students, along with other TAs, to reinforce concepts taught in lectures
+          </li>
+
+        </ul>
+        <Image
+          src={rpi}
+          alt="rpi"
+          className='rounded-lg object-cover h-20 md:h-44 lg:h-60 w-20 md:w-44 lg:w-60 mx-2 shadow-md shadow-slate-700 hover:scale-105 transition-transform duration-500 ease-in-out'
+        />
+      </div>
+    )
+  },
+  {
     title: "Summer 2025",
     content: (
       <div className='flex flex-col items-center gap-10'>

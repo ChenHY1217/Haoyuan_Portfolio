@@ -1,5 +1,40 @@
 export const projects = [
     {
+        id: 6,
+        title: "AI-Powered Personal Finance Analytics Platform",
+        des: "Built a full-stack asynchronous fintech platform with transaction ingestion, ML vendor classification, an OpenAI function-calling copilot for localized SQL queries, and Ridge-based cashflow forecasting.",
+        img: "/projectpics/Financeai.png",
+        iconLists: [
+            "/techstacksvgs/nextjs.svg",
+            "/techstacksvgs/FastAPI.svg",
+            "/techstacksvgs/PostgresSQL.svg",
+            "/techstacksvgs/docker.svg"
+        ],
+        link: "https://github.com/ChenHY1217/AI-Powered-Finance-Analyzer-Platform"
+    },
+    {
+        id: 7,
+        title: "Privacy-Preserving Music Recommendation Engine",
+        des: "Built a federated music recommender on the Last.fm 1K dataset using Matrix Factorization and Neural Collaborative Filtering across 992 client datasets, with differential privacy and an interactive Streamlit demo.",
+        img: "/projectpics/privatune.jpg",
+        iconLists: [
+            "/techstacksvgs/python.svg",
+            "/techstacksvgs/Pytorch.svg",
+        ],
+        link: ""
+    },
+    {
+        id: 8,
+        title: "Detecting Financial Fraud via GNNs",
+        des: "Engineered a reproducible fraud-detection pipeline across PaySim, IEEE-CIS, and Elliptic datasets, benchmarking GCN, GAT, and GraphSAGE models against traditional machine learning baselines.",
+        img: "/projectpics/gnn.svg",
+        iconLists: [
+            "/techstacksvgs/python.svg",
+            "/techstacksvgs/Pytorch.svg",
+        ],
+        link: "https://github.com/ChenHY1217/Detecting_Financial_Fraud_via_GNNs"
+    },
+    {
         id: 1,
         title: "SoraAi - Language Tutor ChatApp",
         des: "Behold a chatbot specialized in transforming you to the next foreign language expert. The journey begins today!",
