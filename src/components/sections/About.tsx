@@ -63,7 +63,7 @@ const About: React.FC = () => {
         <div className='md:w-full p-4'>
           <h2 className='text-2xl font-bold mb-4'>About Me</h2>
           <p className='text-lg'>
-            Hi, my name is <span className="text-purple">Haoyuan Chen</span>. I am currently a <span className="text-purple">Masters student</span> at <span className="text-purple">Rensselaer Polytechnic Institute</span> studying <span className="text-purple">Computer Science</span>. I have recently graduated with a <span className="text-purple">Bachelor's degree</span> in <span className="text-purple">Computer Science and Mathematics</span> from the same university.
+            Hi, my name is <span className="text-purple">Haoyuan Chen</span>. I am currently a <span className="text-purple">Master&apos;s student</span> at <span className="text-purple">Rensselaer Polytechnic Institute</span> studying <span className="text-purple">Computer Science</span>. I have recently graduated with a <span className="text-purple">Bachelor&apos;s degree</span> in <span className="text-purple">Computer Science and Mathematics</span> from the same university.
           </p>
           <p className='text-lg mt-4'>
             Currently, I am working as a <span className="text-purple">Course Assistant</span> at <span className="text-purple">Rensselaer Polytechnic Institute</span>. I also have experience in <span className="text-purple">Full-Stack Development</span> and specific areas of <span className="text-purple">machine learning</span>. I would love to work on impactful projects in these realms that make a difference in the world.
